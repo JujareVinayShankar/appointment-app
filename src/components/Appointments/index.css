@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+}
+
+.content-container {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 24px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 4px;
+  color: #b5b7c4;
+  font-size: 12px;
+}
+
+.title-input {
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.appointment-image {
+  width: 80%;
+  align-self: flex-end;
+}
+
+.date-input {
+  margin-bottom: 18px;
+  height: 30px;
+}
+
+.submit-button {
+  width: 60px;
+  background-color: #8b5cf6;
+  border: none;
+  outline: none;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.star-button {
+  background-color: transparent;
+  height: 24px;
+  border-radius: 20px;
+  padding: 2px 18px;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+}
+
+.filled-star {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  height: 24px;
+  border-radius: 20px;
+  padding: 2px 18px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 80%;
+  }
+
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    width: 80%;
+  }
+  .right-container {
+    display: none;
+  }
+}
